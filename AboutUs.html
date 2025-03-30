@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>AbboutUS Page</title>
+        <link rel="Stylesheet" href="AboutUs.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="menu">
+                    <div>Untitled UI</div>
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Resources</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <a href="#" class="login-btn">Login/Sign-Up</a>
+            </div>
+        <div class="menu-toggle-btn" onclick="toggle()">☰</div>
+        <div class="mobile-menu" id="mob-menu">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Resources</a>
+            <a href="#">Pricing</a>
+        </div>
+        </div>
+        <p>About Us</p>
+        <h1>About the Company</h1>
+        <p style="margin-top: 2%;">Learn more about the Company and the people behind it.</p>
+        <div class="section">
+            <img src="https://th.bing.com/th/id/OIP.K0Sl0Xh6gnrm9X9RoCmx6AHaE8?rs=1&pid=ImgDetMain" alt="company setup">
+            <div class="section-text">
+                <p>We've helped hundreds of companies.</p>
+                <h2>We're only just getting started on our journey</h2>
+                <div class="text">
+                    <div>400+<br><p>Projects Completed</p></div>
+                    <div>600%<br><p>Return on investment</p></div>
+                </div>
+                <div class="text">
+                    <div>10k<br><p>Global Downloads</p></div>
+                    <div>200+<br><p>5-star Reviews</p></div>
+                </div>
+        </div>
+    </body>
+    <script>
+        function toggle(){
+            document.getElementById('mob-menu').classList.toggle('active');
+        }
+    </script>
+</html>
